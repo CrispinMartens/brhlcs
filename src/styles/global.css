@@ -1,0 +1,49 @@
+@tailwind base;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  @apply font-primary font-bold leading-tight; 
+
+}
+
+p {
+  @apply font-secondary text-xl text-paragraphgray;
+}
+
+
+h1 {
+  @apply text-8xl;
+}
+
+h2 {
+  @apply text-6xl;
+}
+
+h3 {
+  @apply text-4xl;
+}
+
+
+section {
+  @apply mx-8 md:mx-16 py-24 md:py-16;
+}
