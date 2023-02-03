@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/CrispinMartens/brhlcs/compare/v1.0.7...v1.0.8) (2023-02-03)
+
+
+### Bug Fixes
+
+* layout fixes ([7cdc602](https://github.com/CrispinMartens/brhlcs/commit/7cdc60277977260399ee25d0607a07c41f88aa14))
+
 ## [1.0.7](https://github.com/CrispinMartens/brhlcs/compare/v1.0.6...v1.0.7) (2023-02-03)
 
 
