@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CrispinMartens/brhlcs/compare/v1.0.6...v1.0.7) (2023-02-03)
+
+
+### Bug Fixes
+
+* package update ([1770a07](https://github.com/CrispinMartens/brhlcs/commit/1770a0783b7cf1821bf4be28e233650af778a98f))
+
 ## [1.0.6](https://github.com/CrispinMartens/brhlcs/compare/v1.0.5...v1.0.6) (2023-02-03)
 
 
