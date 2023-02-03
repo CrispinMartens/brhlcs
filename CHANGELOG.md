@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/CrispinMartens/brhlcs/compare/v1.0.1...v1.0.2) (2023-02-03)
+
+
+### Bug Fixes
+
+* added homepage ([26ef20a](https://github.com/CrispinMartens/brhlcs/commit/26ef20a01f9feb0458579de61feaa3fe6893ca1b))
+
 ## [1.0.1](https://github.com/CrispinMartens/brhlcs/compare/v1.0.0...v1.0.1) (2023-02-03)
 
 
