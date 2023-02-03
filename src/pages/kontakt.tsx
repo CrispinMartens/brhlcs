@@ -1,26 +1,46 @@
+import Link from 'next/link';
 import React from 'react';
 
 function kontakt() {
   return (
     <div>
-      <div className="flex h-screen">
-        <div className="m-auto">
-          <div className="text-center">
-            <h1>Wir freuen uns über Ihre Anfrage:</h1>
-            <p>4918475273273344</p>
-          </div>
-
-          <div className="grid grid-cols-2 gap-24 pt-16">
-            <div className="cursor-pointer rounded-xl border border-neutral-400 px-8 text-center duration-200 ease-in hover:bg-baarblue">
-              <h2>Baraholics anrufen</h2>
-              <p>Lorem Ipsum Dolor Sit Amet</p>
+      <section>
+        <div className="flex h-screen">
+          <div className="m-auto">
+            <div className="text-center">
+              <div className="mx-auto max-w-5xl">
+                <h1>Wir freuen uns über Ihre Anfrage:</h1>
+              </div>
             </div>
-            <div className="rounded-xl border border-neutral-400 px-8 text-center">
-              <h2>Baraholics Schreiben</h2>
+
+            <div className="grid grid-cols-2 gap-24 pt-16">
+              <div className="group cursor-pointer rounded-xl border border-neutral-300 p-16 text-center duration-200 ease-in-out hover:bg-baarblue">
+                <h2>☎️</h2>
+                <h2 className="mb-5 group-hover:text-white">
+                  Baraholics anrufen
+                </h2>
+                <p className="group-hover:text-white">
+                  Sie erreichen uns telefonisch unter der:
+                </p>
+                <p className="group-hover:text-white">+41 01 101 010 10</p>
+              </div>
+
+              <Link href="/kontaktformular" passHref={true}>
+                <div className="group cursor-pointer rounded-xl border border-neutral-300 p-16 text-center duration-200 ease-in-out hover:bg-baarblue">
+                  <h2>📩</h2>
+                  <h2 className="mb-5 group-hover:text-white">
+                    Baraholics Schreiben
+                  </h2>
+                  <p className="group-hover:text-white">
+                    Nutzen Sie das Kontaktformular oder schreiben sie uns eine
+                    Email
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

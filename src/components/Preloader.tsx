@@ -32,20 +32,14 @@ function Preloader() {
           animate={{ y: 0 }}
           exit={{ y: '100%' }}
           transition={{ type: 'easeInOut', duration: 1 }}
-          className="flex h-screen bg-baaryellow"
+          className="flex h-screen bg-transparent"
         >
           <div className="m-auto text-center">
             <div className="mx-24">
               <div className="mb-16 flex justify-center">
                 <LogoBlack />
               </div>
-              <motion.h1
-                initial={{ x: '-20%', skewX: 20 }}
-                animate={{ x: 0, skewX: 0 }}
-                transition={{ duration: 1 }}
-              >
-                Bei einem Drink entspannen.
-              </motion.h1>
+              <h1>Bei einem Drink entspannen.</h1>
             </div>
           </div>
         </motion.div>

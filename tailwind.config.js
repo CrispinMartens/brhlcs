@@ -18,8 +18,8 @@ module.exports = {
       '9xl': '9rem',
     },
     fontFamily: {
-      primary: ['Recoleta Alt', 'Helvetica', 'sans-serif'],
-      secondary: ['Work Sans', 'Helvetica', 'sans-serif'],
+      primary: ['The Seasons', 'Helvetica', 'sans-serif'],
+      secondary: ['Sohne Breit', 'Helvetica', 'sans-serif'],
     },
     extend: {
       colors: {
@@ -45,8 +45,9 @@ module.exports = {
           800: '#2c5282',
           900: '#2a4365',
         },
-        baarblue: '#009FE4',
+        baarblue: '#006D9D',
         baaryellow: '#FDDE00',
+        bgtint: '#FCFBF1',
         paragraphgray: '#7B7B75',
       },
     },

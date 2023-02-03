@@ -14,7 +14,7 @@ const DefaultLayout: React.FunctionComponent<DefaultLayoutProps> = ({
         <title>Baraholics</title>
       </Head>
 
-      <TopNav></TopNav>
+      <TopNav />
       <div className="max-w-full grow">
         <main>{children}</main>
       </div>
