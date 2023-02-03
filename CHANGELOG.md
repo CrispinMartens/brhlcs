@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/CrispinMartens/brhlcs/compare/v1.0.0...v1.0.1) (2023-02-03)
+
+
+### Bug Fixes
+
+* go live push ([9b11ef2](https://github.com/CrispinMartens/brhlcs/commit/9b11ef221d2d14c6297f860f65a6ab30cba8c2d1))
+
 # 1.0.0 (2023-01-04)
 
 
