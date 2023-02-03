@@ -50,13 +50,18 @@ const Kontaktformular: React.FC = () => {
   return (
     <div>
       <section>
-        <div className="mx-auto max-w-5xl">
+        <div className="mx-auto max-w-7xl">
           <div className="py-16 text-center">
-            <h1>Das Kontaktformular hilft uns Ihr Anliegen </h1>
+            <h1 className="mb-5">
+              Nutzen Sie unser Kontaktformular für Ihr Anliegen.
+            </h1>
+            <p>
+              Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen.
+            </p>
           </div>
           <form onSubmit={handleSubmit}>
             <AnimatePresence>
-              <div className="grid grid-cols-2 gap-32 ">
+              <div className="grid grid-cols-3 gap-y-48 pt-16">
                 <div>
                   <motion.div
                     initial={{ opacity: 0, y: 40 }}
@@ -87,7 +92,7 @@ const Kontaktformular: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email">Email Adresse</label>
+                  <label htmlFor="email">Ihre Email Adresse</label>
                   <input
                     type="email"
                     name="email"
@@ -98,7 +103,7 @@ const Kontaktformular: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="telefonnummer">Telefonnummer</label>
+                  <label htmlFor="telefonnummer">Ihre Telefonnummer</label>
                   <input
                     type="tel"
                     name="telefonnummer"
@@ -109,7 +114,7 @@ const Kontaktformular: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="datum">Datum des geplanten Anlasses</label>
+                  <label htmlFor="datum">Datum des Anlasses</label>
                   <input
                     type="date"
                     name="datum"
@@ -142,7 +147,7 @@ const Kontaktformular: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="gaeste">Geplante Gästeanzahl</label>
+                  <label htmlFor="gaeste">Ihre geplante Gästeanzahl?</label>
                   <input
                     type="number"
                     name="gaeste"
@@ -155,9 +160,11 @@ const Kontaktformular: React.FC = () => {
               </div>
             </AnimatePresence>
 
-            <div className="pt-16">
-              <label>Welche Zeiten:</label>
-              <div className="grid grid-cols-3">
+            <div className="pt-32">
+              <label className="mb-16 text-center">
+                Welche Zeiten präferieren Sie für einen Anruf von uns?
+              </label>
+              <div className="grid grid-cols-3 text-center">
                 <div>
                   <input
                     type="checkbox"
@@ -166,7 +173,7 @@ const Kontaktformular: React.FC = () => {
                     onChange={handleCheckboxChange}
                     value={formData.zeiten}
                   />
-                  <label htmlFor="vormittag">Vormittag</label>
+                  <label htmlFor="vormittag">Am Vormittag</label>
                 </div>
                 <div>
                   <input
@@ -176,7 +183,7 @@ const Kontaktformular: React.FC = () => {
                     onChange={handleCheckboxChange}
                     value={formData.zeiten}
                   />
-                  <label htmlFor="nachmittag">Nachmittag</label>
+                  <label htmlFor="nachmittag">Am Nachmittag</label>
                 </div>
                 <div>
                   <input
@@ -185,9 +192,8 @@ const Kontaktformular: React.FC = () => {
                     id="abend"
                     onChange={handleCheckboxChange}
                     value={formData.zeiten}
-                    className="w-8"
                   />
-                  <label htmlFor="abend">Abend</label>
+                  <label htmlFor="abend">Am Abend</label>
                 </div>
               </div>
             </div>

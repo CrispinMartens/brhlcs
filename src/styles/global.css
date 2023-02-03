@@ -102,7 +102,7 @@ Link {
 }
 
 button {
-  @apply font-primary bg-bgtint font-bold uppercase w-72 h-12 hover:invert transform ease-in duration-200;
+  @apply font-primary bg-bgtint font-bold uppercase w-72 h-12 hover:bg-baaryellow hover:text-black transform ease-in duration-200;
 }
 
 

@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
 
-import Placeholder from '@/public/assets/images/catering_placeholder.png';
-import Stundenbasis from '@/public/assets/images/stundenbasis.png';
+import Konsumationsbasis from '@/public/assets/images/konsumationsbasis.png';
+import Mixkurse from '@/public/assets/images/mixkurs.png';
+import Stundenbasis from '@/public/assets/images/stunden.png';
 
 function Pricing() {
   return (
@@ -11,7 +12,7 @@ function Pricing() {
         <div className="text-center">
           <h1>Die Preise</h1>
         </div>
-        <div className="border-b border-baarblue py-24 md:mx-16 md:flex">
+        <div className="mx-8 border-b border-baarblue py-24 md:flex">
           <div className="border-r border-baarblue">
             <div className="w-full border-b border-baarblue py-8 md:w-10/12">
               <div className="flex items-center justify-center">
@@ -33,7 +34,7 @@ function Pricing() {
             <div className="w-full pt-16 md:w-10/12">
               <div className="flex items-center justify-center">
                 <Image
-                  src={Placeholder}
+                  src={Konsumationsbasis}
                   alt="Baraholics"
                   className="mb-10 w-72"
                 />
@@ -47,20 +48,17 @@ function Pricing() {
               </p>
             </div>
           </div>
-          <div className="m-auto text-center md:mx-24">
+          <div className="m-auto md:mx-24">
             <div className="flex items-center justify-center">
-              <Image
-                src={Placeholder}
-                alt="Baraholics"
-                className="mb-10 w-72"
-              />
+              <Image src={Mixkurse} alt="Baraholics" className="mb-10 w-72" />
             </div>
             <h2 className="mb-5 text-4xl">Party Mixkurse</h2>
-            <p>
+            <p className="mb-5">
               CHF 80 pro Person, mindestens jedoch CHF 500. Die Getränke sind
-              inklusive, und dürfen behalten werden. Ab 14 Teilnehmenden wird
-              ein zweiter Barkeeper aufgeboten.
+              inklusive, und dürfen behalten werden.
             </p>
+
+            <p>Ab 14 Teilnehmenden wird ein zweiter Barkeeper aufgeboten.</p>
           </div>
         </div>
       </section>

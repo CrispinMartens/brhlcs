@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
 
+import InstagramLogo from './atoms/InstagramLogo';
 import LogoBlack from './atoms/LogoBlack';
 
 function Footer() {
   return (
     <div>
-      <div className="relative z-10 max-w-full bg-transparent">
+      <div className="relative z-10 max-w-full bg-transparent pt-24">
         <div className="py-32 md:mx-16 md:flex">
           <div className="m-auto w-full md:w-4/12">
             <LogoBlack />
@@ -30,17 +31,20 @@ function Footer() {
           </div>
         </div>
 
-        <div className="md:mx-16">
+        <div className="group md:mx-16">
           <div className="flex border-t border-baarblue p-8">
-            <div className="w-6/12">
+            <div className="w-10/12">
               <div className="m-auto">
                 <h4>{new Date().getFullYear()}, Baaraholics</h4>
               </div>
             </div>
 
-            <div className="w-6/12 text-right">
+            <div className=" mx-auto w-2/12">
               <a href="https://www.instagram.com/baraholics/">
-                <h4>Follow Us on Instagram</h4>
+                <div className="flex">
+                  <InstagramLogo />
+                  <h4 className="m-auto">Follow Us on Instagram</h4>
+                </div>
               </a>
             </div>
           </div>

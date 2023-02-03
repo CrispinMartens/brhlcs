@@ -80,8 +80,8 @@ function About() {
             </div>
           </div>
 
-          <div className="py-24">
-            <div className="mx-auto max-w-5xl">
+          <div className="py-48">
+            <div className="mx-auto max-w-7xl">
               <div className="text-center">
                 <AnimatePresence>
                   {inView && (
@@ -91,8 +91,12 @@ function About() {
                       exit={{ opacity: 0 }}
                       transition={{ duration: 0.7, ease: 'easeOut' }}
                     >
-                      <h2 className="text-5xl normal-case md:text-6xl">
-                        Gemeinsam haben wir das Ziel Ihre
+                      <h2 className="text-5xl normal-case md:text-7xl">
+                        Baraholics -
+                      </h2>
+
+                      <h2 className="text-5xl normal-case md:text-7xl">
+                        Barkunst auf höchstem Niveau.
                       </h2>
                     </motion.div>
                   )}

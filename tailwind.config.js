@@ -46,7 +46,7 @@ module.exports = {
           900: '#2a4365',
         },
         baarblue: '#006D9D',
-        baaryellow: '#FDDE00',
+        baaryellow: '#E7CB03',
         bgtint: '#FCFBF1',
         paragraphgray: '#7B7B75',
       },

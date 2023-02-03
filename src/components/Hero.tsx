@@ -46,7 +46,7 @@ function Hero() {
           />
         </div>
       )}
-      <div className="flex h-screen bg-baarblue">
+      <div className="flex h-screen overflow-hidden bg-baarblue">
         <div className="grid md:grid-cols-2">
           <div className="order-2 m-auto mx-8 md:order-1 md:mx-24">
             <AnimatePresence>
