@@ -1,3 +1,10 @@
+# 1.0.0 (2023-01-04)
+
+
+### Features
+
+* initial commit ([6c2534c](https://github.com/CrispinMartens/brhlcs/commit/6c2534c3f52933aa106412272a4668a22d2a29ca))
+
 # [3.6.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.4...v3.6.0) (2022-12-03)
 
 
